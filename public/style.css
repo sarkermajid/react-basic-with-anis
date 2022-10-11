@@ -13,6 +13,7 @@
 .card {
     width: 335px;
     margin: 10px;
+    margin-top: 30px;
     padding: 20px;
     box-sizing: border-box;
     font-size: 18px;
@@ -52,8 +53,8 @@
 }
 
 .buttonStyle:hover{
-    background-color: red;
-    color: black;
+    background-color: black;
+    color: yellow;
     border: 1px solid yellow;
     transition: .07s;
 }
