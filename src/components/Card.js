@@ -4,9 +4,10 @@ const currentMonth = date.getMonth();
 const currentYear = date.getFullYear();
 
 function Card(props){
-    const {title, des} = props; // destructuring
+    const {id, title, des} = props; // destructuring
     return(
         <div className='card'>
+            <p>{id}</p>
             <h4 className='cardTitle'>{title}</h4>
             <p className='cardDescription'>{des}</p>
             <p className='cardDate'>{currentDate + '/' + currentMonth + '/' + currentYear}</p>
