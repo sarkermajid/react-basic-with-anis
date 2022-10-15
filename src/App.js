@@ -5,6 +5,8 @@ import Card2 from "./components/card2";
 import { FaReact, FaYoutube, FaFacebookMessenger } from "react-icons/fa";
 import ReactBootstrap from "./components/ReactBootstrap";
 
+import State from "./components/State";
+
 const heading = 'Todo App';
 function App(){
     return(
@@ -20,6 +22,8 @@ function App(){
             <ReactBootstrap></ReactBootstrap>
             <ReactBootstrap></ReactBootstrap>
             <ReactBootstrap></ReactBootstrap>
+            <h1>State in React</h1>
+            <State></State>
         </div>
     );
 }
