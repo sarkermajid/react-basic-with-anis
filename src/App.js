@@ -3,6 +3,7 @@ import Card from "./components/Card";
 import cardData from "./data";
 import Card2 from "./components/card2";
 import { FaReact, FaYoutube, FaFacebookMessenger } from "react-icons/fa";
+import ReactBootstrap from "./components/ReactBootstrap";
 
 const heading = 'Todo App';
 function App(){
@@ -14,6 +15,11 @@ function App(){
             <FaReact className="icon"></FaReact>
             <FaYoutube className="icon"></FaYoutube>
             <FaFacebookMessenger className="icon"></FaFacebookMessenger>
+            <h1>React Bootstrap use</h1>
+            <ReactBootstrap></ReactBootstrap>
+            <ReactBootstrap></ReactBootstrap>
+            <ReactBootstrap></ReactBootstrap>
+            <ReactBootstrap></ReactBootstrap>
         </div>
     );
 }
