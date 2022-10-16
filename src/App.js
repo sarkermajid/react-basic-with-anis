@@ -6,6 +6,7 @@ import { FaReact, FaYoutube, FaFacebookMessenger } from "react-icons/fa";
 import ReactBootstrap from "./components/ReactBootstrap";
 
 import State from "./components/State";
+import ConditionalRendaring from "./ConditionalRendering";
 
 const heading = 'Todo App';
 function App(){
@@ -24,6 +25,7 @@ function App(){
             <ReactBootstrap></ReactBootstrap>
             <h1>State in React</h1>
             <State></State>
+            <ConditionalRendaring></ConditionalRendaring>
         </div>
     );
 }
